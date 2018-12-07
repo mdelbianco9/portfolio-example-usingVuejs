@@ -1,0 +1,209 @@
+body {
+	border: 10px solid #6FAEC9;
+}
+
+
+nav {
+	width: 100%;
+}
+
+.myname {
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	font-family: 'Poor Story', cursive;
+	font-size: 40px;
+	color: #2D3040;
+	font-weight: 600;
+}
+
+.mynav {
+	width: 49%;
+	height: 100px;
+	background-color: #2D3040;
+	text-align: right;
+	list-style: none;
+	padding: 1%;
+	padding-top: 2%;
+	display: inline-block;
+}
+
+.mynav li {
+	display: inline-block;
+	height: 80%;
+	padding: 0px 15px;
+	font-size: 35px;
+	opacity: 1;
+}
+
+.mynav li a {
+	color: #fff;
+	transition: .4s ease;
+	font-family: 'Poor Story', cursive;
+
+}
+
+.mynav li a:hover {
+	text-decoration: none;
+	color: #89BDD3;
+}
+
+
+.header {
+	display: inline-block;
+	margin: 30px;
+	font-size: 150px;
+	-webkit-animation:colorchange 15s infinite alternate;
+	font-family: 'Poor Story', cursive;
+	font-weight: 700;
+}
+
+.hero {
+	height: 400px;
+	opacity: .4;
+}
+
+
+    @-webkit-keyframes colorchange {
+      0% {
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+
+.slide-fade-enter, .slide-fade-leave-to {
+	transform: translateY(40px);
+	opacity: 0;
+}
+.slide-fade-enter-active, .slide-fade-leave-active {
+	transition: .5s ease;
+}
+
+.slide-fade-leave-active {
+	transition: .3s ease-out;
+}
+
+
+footer {
+	height: 100px;
+	width: 50%;
+	margin: auto;
+	background-color: #2D3040;
+	margin-top: 50px;
+}
+
+
+img.resume {
+	width: 100%;
+	border: 2px solid black;
+}
+
+
+.p-item {
+	height: 300px;
+	width: 300px;
+	margin: auto;
+	margin-top: .5%;
+	transition: .4s ease;
+}
+
+.p-item:hover {
+	opacity: .5;
+	cursor: pointer;
+}
+
+.center {
+	margin-top: 2%;
+	text-align: center;
+}
+
+.circle {
+	border-radius: 50%;
+	margin: 5%;
+}
+
+.bio {
+	margin-top: 5%;
+	font-family: 'Poor Story', cursive;
+	color: #2D3040;
+	font-size: 25px;
+}
+
+.skills {
+	background-color: #89BDD3;
+}
+
+.skills-header {
+	font-family: 'Poor Story', cursive;
+	color: #2D3040;
+	font-size: 50px;
+	padding-top: 50px;
+	padding-left: 100px;
+}
+
+.skills-list {
+	font-family: 'Poor Story', cursive;
+	color: #2D3040;
+	font-size: 30px;
+	list-style: none;
+	padding-right: 260px;
+}
+
+.contact {
+	font-family: 'Poor Story', cursive;
+	color: #2D3040;
+	font-size: 50px;
+}
+
+.myform {
+	background-color: #D0DBDD;
+}
+
